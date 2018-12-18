@@ -1,0 +1,60 @@
+[{"Menu":[
+	{"Beverages": [
+		{"Coffee":[
+			{"name":"Cappuccino", "price":"$2.99", "description":"Coffee made with milk that has been frothed up with pressurized steam"},
+			{"name":"Black-Coffee", "price":"$2.99", "description":"Black coffee is normally brewed coffee without any added flavors, cream, or sugar. "},
+			{"name":"Cold-Coffee", "price":"$3.99", "description":"A type of coffee served cold with the fundamental division being cold brew"}
+		]},
+		 
+			{"Tea":[
+				{"name":"Hot-Tea", "price":"$2.99"},
+				{"name":"Iced-Tea", "price":"$3.99"},
+				{"name":"Green-Tea", "price":"$2.99"}
+			]},
+			{"FountainDrinks":[
+				{"name":"Coca-Cola", "price":"$2.99"},
+				{"name":"Mojito", "price":"$4.99"},
+				{"name":"Sprite", "price":"$2.99"}
+			]}
+		
+	]},
+	{"Eateries":[
+	{"Noodles" : [ 
+		{"name":"Chicken-Noodles", "price":"$6.99", "description":"Chicken and vegetable broths stirred in chicken, noodles, carrots, basil, oregano, salt and pepper"},
+		{"name":"Schezwan-noodles", "price":"$8.99", "description":"Quick stir fry vegetable noodles in schezwan sauce"},
+		{"name":"Soupy-flat-noodles", "price":"$8.99", "description":"Flat noodles served with an accompanying sauce or in a soup"}
+	]},
+	{"Salads":[
+		{"name":"NaanwithThaicurry", "price":"$12.99", "description":"Naan -N- Curry is dedicated to bringing authentic and fresh Pakistani and Indian flavors to its customers"},
+		{"name":"Roti-with-Paneer", "price":"$13.99", "description":"Serves delicious paneer butter masala with paratha, roti or jeera rice for lunch or dinner"},
+		{"name":"Parota-with-Aloo", "price":"$13.99", "description":"Serve this breakfast with yogurt, chutney and pickle"}
+		
+	]},
+	{"Rice":[
+		{"name":"Fried-Rice", "price":"$9.99"},
+		{"name":"Risotto", "price":"$9.99"},
+		{"name":"Rice-Crisper", "price":"$9.99"}
+	]}
+]},
+
+{"Dessert":[
+	{"Pastries" : [ 
+		{"name":"Apple-Pie", "price":"$5.99", "description":"Used to represent a cherished ideal of comfort and familiarity"},
+		{"name":"Crossaint", "price":"$3.99", "description":"A French crescent-shaped roll made of sweet flaky pastry, often eaten for breakfast"},
+		{"name":"Macaroon", "price":"$2.99", "description":"A light cookie made with egg white, sugar, and usually ground almonds or coconut."}
+	]},
+	{"IcecreamAndCookies":[
+		{"name":"Fudge-Brownie", "price":"$12.99", "description":"Gooey chocolate deliciousness."},
+		{"name":"Truffle-Cake", "price":"$13.99", "description":"Made from a smooth blend of dark chocolate truffles melted into heavy cream"},
+		{"name":"Cookies-and-Cream", "price":"$13.99", "description":"Flavor your cookies with your favorite ice cream!"}
+		
+	]},
+	{"Snacks":[
+		{"name":"Chocolate-Chip-Cookie", "price":"$3.99"},
+		{"name":"Crackers", "price":"$1.99"},
+		{"name":"Cupcakes", "price":"$1.99"}
+	]}
+]}
+
+
+]} ]

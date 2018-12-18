@@ -1,0 +1,250 @@
+{% extends "base.njk" %}
+{% block cont %}
+
+ <h2>Beverages </h2>
+
+
+
+ <h3>Coffee</h3>
+      {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Beverages%}
+			      {% for k in j.Coffee %} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} 
+				
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+	  
+{% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Beverages%}
+			      {% for k in j.Coffee %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+		<h3> Tea </h3>
+		     {% for item in menuitems %}
+			      {% for i in item.Menu %}
+				      {% for j in i.Beverages%} 
+				       {% for k in j.Tea %} 
+					      <p> {{k.name}} <br>
+					      {{k.price}} <br>
+					      {{k.description}} <br>
+					      </p>
+					      {% endfor %}
+					       {% endfor %}
+			      {% endfor %}
+		      {% endfor %}
+
+			  
+{% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Beverages%}
+			      {% for k in j.Tea %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+      <h3> Fountain Drinks </h3>
+     {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Beverages%} 
+		       {% for k in j.FountainDrinks %} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+			      </p>
+			      {% endfor %}
+			       {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+	  {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Beverages%}
+			      {% for k in j.FountainDrinks %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+
+      <h2> Eateries </h2> 
+      <h3> Noodles </h3>
+     {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Eateries%}
+			      {% for k in j.Noodles %} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+{% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Eateries%}
+			      {% for k in j.Noodles %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+      <h3> Salads </h3> 
+      {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Eateries%}
+			      {% for k in j.Salads %} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+{% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Eateries %}
+			      {% for k in j.Salads %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+      <h3> Rice </h3> 
+      {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Eateries%}
+			      {% for k in j.Rice %} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+	  {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Eateries %}
+			      {% for k in j.Rice %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+      <h2> Dessert </h2> 
+      <h3> Pastries </h3>
+      {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Dessert%}
+			      {% for k in j.Pastries%} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+	  {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Dessert %}
+			      {% for k in j.Pastries %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+      <h3> Icecream and Cookies </h3> 
+      {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Dessert%}
+			      {% for k in j.IcecreamAndCookies%} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+	  {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Dessert %}
+			      {% for k in j.IcecreamAndCookies%} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+      <h3> Snacks </h3> 
+      {% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Dessert%}
+			      {% for k in j.Snacks%} 
+			      <p> {{k.name}} <br>
+			      {{k.price}} <br>
+			      {{k.description}} <br>
+			      </p>
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+{% for item in menuitems %}
+	      {% for i in item.Menu %}
+		      {% for j in i.Dessert %}
+			      {% for k in j.Snacks %} 
+				
+				  <img src="../images/{{k.name}}.jpg">
+			      
+			      {% endfor %}
+		      {% endfor %}
+	      {% endfor %}
+      {% endfor %}
+
+{% endblock %}

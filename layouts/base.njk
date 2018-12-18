@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="author" content="{{author}}" >
+      <meta name="description" content="{{description}}" >
+      <link rel="stylesheet" type="text/css" href="./my.css">
+
+    <title>{{title}}</title>
+      <header>
+      <h1>{{h1}}</h1>
+      {% for h in time %}
+      <h2 id="hours">{{h.hours}}</h2>
+      {% endfor %}
+      </header>
+
+  </head>
+<section id="sty">
+<body>
+  <main>
+
+
+    {% block contents %}
+    {% include "nav.njk" %}
+    
+    <section class="cont"> {% block cont %}{% endblock %} </section>
+
+      {{contents | safe}} <!-- A Nunjucks filter that stops HTML escaping -->
+    {% endblock %}
+  </main>
+
+  <script src="./jquery-3.3.1.min.js"></script>
+  <script src="./bootstrap.bundle.js" ></script>
+  
+
+ 
+</body>
+</section>
+</html>
